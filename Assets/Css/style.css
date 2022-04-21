@@ -131,7 +131,7 @@ nav {
 
 .gridFooter {
     grid-area: footer;
-    background-color: rgba(245, 89, 11, 0.514);
+    background-color: #dd2d16ce;
     text-align: center;
     color: rgb(248, 242, 242);
 
@@ -229,7 +229,7 @@ nav {
 
 .gridMainGalery {
     grid-area: main;
-    background-color: rgba(94, 58, 226, 0.144);
+    background-color: rgba(240, 124, 57, 0.041);
 }
 
 @media (max-width: 699px) {
@@ -297,6 +297,7 @@ nav {
          "main"auto 
          "footer"100px;
     }
+
 
 
 @media (max-width: 699px) {
