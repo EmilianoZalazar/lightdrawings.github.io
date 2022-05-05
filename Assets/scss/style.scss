@@ -6,6 +6,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Beau+Rivage&family=Birthstone&family=Grape+Nuts&family=KoHo:wght@200&display=swap');
 
+@import 'variables';
+@import 'mixins' ;
+@import 'maps';
+
+
 * {
     font-family: 'Roboto', sans-serif;
     padding: 0px;
@@ -82,13 +87,14 @@ header{
 .logo {
     display: flex;
     align-items: center;
+    img {
+        height: 180px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+    
 }
 
-.logo img {
-    height: 180px;
-    margin-right: 15px;
-    cursor: pointer;
-}
 
 
 
@@ -169,7 +175,7 @@ body {
 
 .tituloIndex {
     font-family: 'Birthstone', cursive;
-    font-size: 50px;
+    font-size: 40px;
 
 }
 
@@ -265,6 +271,11 @@ body {
     background-color: #faf4f48f;
     text-align: center;
     color: black;
+
+   
+
+
+
 
 
 }
@@ -451,12 +462,7 @@ body {
     .gridContainerPost {
         display: grid;
         gap: 10px;
-        /* grid-template-areas: 
-    "header"
-    "section"
-    "main"
-    "article"
-     "footer"; */
+    
         grid-template:
             "header" auto 
             "main" auto 
@@ -465,24 +471,3 @@ body {
     }
 }
 
-/*tarjetas viejas*/
-/* .cardProduct{ 
-        width: 250px;
-
-        
-    }
-      
-    .cardProduct__img{
-        width: 100%;
-    
-    }
-    
-    .cardProduct__description__price{
-        margin-top: 10px;
-    }
-    
-    .cardProduct__description__text{
- 
-    text-align: justify;
-    line-height: 20px;
-    } */

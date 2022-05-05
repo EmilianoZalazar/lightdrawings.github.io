@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Beau+Rivage&family=Birthstone&family=Grape+Nuts&family=KoHo:wght@200&display=swap');
+
+@mixin fontSize($size,$weight) {
+    font-size: $size;
+    font-size: $weight;
+    
+}
+
+.letrasParrafos {
+    @include fontSize(18px, 100)
+}
+
+.letrasGrandes{
+    @include fontSize(22px, 100)
+}

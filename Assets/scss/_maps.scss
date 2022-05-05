@@ -1,0 +1,13 @@
+$redes: (
+    youtube: rgb(221, 26, 68),
+    facebook: rgb(76, 0, 255),
+    
+);
+
+#botonFacebook{
+    background-color: map-get($map: $redes, $key:facebook);
+}
+
+#botonYoutube{
+    background-color: map-get($map: $redes, $key:youtube);
+}
