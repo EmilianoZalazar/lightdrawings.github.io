@@ -26,21 +26,6 @@ html {
 }
 
 
-/*
-header {
-    background-color: #faf4f4b4;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-
-}*/
-
-/*header div h3 {
-    color: rgb(0, 0, 0);
-    font-family: 'Amatic SC', cursive;
-}*/ 
-
 header{
 
     background-color: #faf4f4b4;
@@ -98,30 +83,6 @@ header{
 
 
 
-/*nav { 
-
-    padding: 10px 0px;
-    
-    a {
-    font-weight: 600;
-    padding-right: 50px;
-    color: rgb(5, 5, 5);
-    font-family: 'Amatic SC', cursive;
-    font-size: 22px;
-    text-decoration: none;
-    &:hover{
-        color: rgba(245, 151, 11, 0.897);
-    }
-
-
-       }
-
-}*/
-/*
-nav a:hover { color: rgba(245, 151, 11, 0.897);
-   
-}*/
-
 
 body {
     background-image: url(./../Img/index2.webp);
@@ -158,7 +119,7 @@ body {
         "header header"   100px 
         "section section" 150px 
         "main  article"    auto  
-        "footer footer"   100px;
+        "footer footer"   130px;
 }
 
 .gridHeader {
@@ -191,76 +152,8 @@ body {
     grid-area: main;
 }  
    
-/*.gridMainIndex{
-    width: 100%;
-    max-width: 300px;
-    margin: 100px auto;
-    position: relative;
-    display: flex;
-    align-items: center;
-     }
-
- .gridMainIndex:hover img{
-
-    filter: blur(1.5px);
-    transition: all .3s;
-    transform: scale(1.5);
-    transition: all .3s;
- }*/
-
- /*.gridMainIndex::before{
-
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    transition: all .3s;
-    top: 0;
-    left: 0;
- }
-
- .gridMainIndex:hover::before{
-    background:rgba(42, 25, 49, 0.301);
-    z-index: 2;
-    transition: all .3s;
- }*/
-
-    /*img {
-        width: 100%;
-        height: 100%;
-        transition: all .3s;
-
-    }*/
-
-    /*.textIndexMain {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        position: absolute;
-        color: #fff;
-        padding: 10px 20px;
-        z-index: 3;
-        flex-direction: column;
-         }
-     
-    .tituloMainIndex, .parrafoMainIndex {
-        margin: 10px;
-        padding: 5px;
-
-    }     
-
-    .tituloMainIndex{
-        position: absolute;
-        right: 100%;
-    }
-
-    .gridMainIndex:hover .tituloMainIndex{
-        left: 0%;
-    }*/
 
     
-
-
 .gridArticleDer {
     grid-area: article;
 
@@ -271,13 +164,9 @@ body {
     background-color: #faf4f48f;
     text-align: center;
     color: black;
+    bottom: 0;
 
-   
-
-
-
-
-
+    
 }
 
 
@@ -355,7 +244,7 @@ body {
     grid-template:
         "header" 100px 
         "main"   auto 
-        "footer" 100px;
+        "footer" 150px;
 }
 
 
@@ -391,7 +280,7 @@ body {
     grid-template:
         "header" 100px 
         "main"   auto 
-        "footer" 100px;
+        "footer" 150px;
 }
 
 
@@ -422,7 +311,7 @@ body {
 
         "header" 100px 
         "main"   auto 
-        "footer" 100px;
+        "footer" 150px;
 }
 
 
@@ -454,7 +343,7 @@ body {
 
         "header" 100px 
         "main"    auto 
-        "footer" 100px;
+        "footer" 150px;
 }
 
 

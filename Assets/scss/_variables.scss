@@ -1,17 +1,19 @@
 .buttons{
-
+   padding-top: 20px;
     min-width: 700px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+   
+    
 
              a {
                 text-decoration: none;
-                font-size: 28px;
-                 width: 60px;
-                height: 60px;
-                line-height: 60px;
+                font-size: 20px;
+                 width: 40px;
+                height: 40px;
+                line-height:40px;
                 text-align: center;
-                background: #314652;
+                background: #753394;
                 color: #f1f1f1;
                 border-radius: 50%;
                 box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
@@ -29,7 +31,7 @@
 
     @extend .buttons;
         justify-content: end;
-        padding-right: 30px;
+        padding-right: 40px;
         a{
          background: #be6fadd5;
 
@@ -38,10 +40,6 @@
            }
 
         }
-
-        
-
-
 
  }
 
